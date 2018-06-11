@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif, !important;
+}
+
+.nav{
+  letter-spacing: 0.2em !important;
+}
+
+.me{
+  width: 20vw !important;
+  height: 20vh !important;
+}
