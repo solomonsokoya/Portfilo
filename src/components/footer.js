@@ -14,9 +14,8 @@ export default class Footer extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu icon borderless >
+      <Menu icon borderless compact className='footer'>
         <Menu.Item
-        position = 'right'
         name='mail'
         active={activeItem === 'mail'}
         onClick={this.handleItemClick}>
@@ -24,7 +23,6 @@ export default class Footer extends Component {
         </Menu.Item>
 
         <Menu.Item
-          position = 'right'
           name='linkedin '
           active={activeItem === 'linkedin'}
           onClick={this.handleItemClick}>
@@ -32,7 +30,6 @@ export default class Footer extends Component {
         </Menu.Item>
 
         <Menu.Item
-          position = 'right'
           name='github'
           active={activeItem === 'github'}
           onClick={this.handleItemClick}>

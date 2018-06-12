@@ -8,7 +8,7 @@ export default class AboutMe extends Component {
   render(){
 
     return(
-      <div>
+      <div className='middleChild'>
         <Image circular centered size='small' src = {Me}/>
         <Header as='h2' icon textAlign='center'>
           <Header.Content>Solomon Sokoya</Header.Content>

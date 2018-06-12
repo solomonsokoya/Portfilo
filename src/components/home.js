@@ -19,7 +19,7 @@ constructor(props){
   render(){
     console.log(this.props.history)
     return(
-      <div>
+      <div className = 'gridContainer'>
         <Nav routeTo = {this.handleRoutes}/>
         <Aboutme/>
         <Footer/>

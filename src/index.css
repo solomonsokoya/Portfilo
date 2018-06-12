@@ -1,20 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300');
 
 *{
-    font-family: 'Montserrat', sans-serif, !important;
+  font-family: 'Sunflower', sans-serif;
 }
 
 .nav{
   letter-spacing: 0.2em !important;
+  grid-area: nav;
+  height: 5vh;
+  align-self: start;
 }
+.footer{
+  grid-area: footer;
+  max-height: 5vh;
+  align-self: end;
+}
+.middleChild{
+  grid-area: middleChild;
+  align-self: center;
 
+}
 .me{
   width: 20vw !important;
   height: 20vh !important;
+}
+
+.gridContainer{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+  "nav"
+  "middleChild "
+  "footer"
 }
