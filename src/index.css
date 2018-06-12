@@ -4,6 +4,10 @@
   font-family: 'Sunflower', sans-serif;
 }
 
+.projectHeader{
+    font-family: 'Sunflower', 'sans-serif' !important;
+}
+
 .nav{
   letter-spacing: 0.2em !important;
   grid-area: nav;
