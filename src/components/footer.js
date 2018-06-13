@@ -16,6 +16,7 @@ export default class Footer extends Component {
     return (
       <Menu icon borderless compact className='footer'>
         <Menu.Item
+        href="mailto:solomonsokoya718@gmail.com"
         name='mail'
         active={activeItem === 'mail'}
         onClick={this.handleItemClick}>
@@ -23,6 +24,7 @@ export default class Footer extends Component {
         </Menu.Item>
 
         <Menu.Item
+          href='https://www.linkedin.com/in/solomon-sokoya-29b29198/'
           name='linkedin '
           active={activeItem === 'linkedin'}
           onClick={this.handleItemClick}>
@@ -30,6 +32,7 @@ export default class Footer extends Component {
         </Menu.Item>
 
         <Menu.Item
+          href='https://github.com/solomonsokoya'
           name='github'
           active={activeItem === 'github'}
           onClick={this.handleItemClick}>

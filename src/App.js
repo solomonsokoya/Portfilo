@@ -6,10 +6,7 @@ import {Route, Switch } from 'react-router-dom';
 
 
 export default class MenuExampleSecondary extends Component {
-constructor(props){
-    super(props)
 
-}
 
 
 
