@@ -82,7 +82,7 @@ export default class Projects extends Component{
           <Card.Content textAlign='center'>
             <Card.Header className = 'projectHeader'>Giggs App</Card.Header>
             <Card.Meta>April 2018</Card.Meta>
-            <Card.Description>Job posting app using Node.js, Express, EJS, and CSS3. Used the MVC framework to build my backend interactions </Card.Description>
+            <Card.Description>Job posting app using Node.js, Express, EJS, and CSS3. Used the MVC framework to build my backend interactions. </Card.Description>
          </Card.Content>
         </Card>
         </Transition>
@@ -105,7 +105,7 @@ export default class Projects extends Component{
           <Card.Content textAlign='center'>
             <Card.Header className = 'projectHeader'>Drink Up App</Card.Header>
             <Card.Meta>May 2018</Card.Meta>
-            <Card.Description> App where users can find recipes to their favorite drink. Made fetch calls to cocktailsDB using Javascript, REACT, CSS, Node, and Express </Card.Description>
+            <Card.Description> App where users can find recipes to their favorite drink. Made fetch calls to cocktailsDB using Javascript, REACT, CSS, Node, and Express. </Card.Description>
          </Card.Content>
         </Card>
         </Transition>
