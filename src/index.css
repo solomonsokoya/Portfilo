@@ -8,6 +8,13 @@
     font-family: 'Sunflower', 'sans-serif' !important;
 }
 
+  span{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3em;
+    color: #0096cc;
+  }
+
 .nav{
   letter-spacing: 0.2em !important;
   grid-area: nav;
