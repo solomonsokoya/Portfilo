@@ -14,16 +14,16 @@ export default class MenuExampleSecondary extends Component {
 
     return(
 
+          <HashRouter>
        <div>
           <main>
-          <HashRouter>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects}/>
           </Switch>
-          </HashRouter>
           </main>
         </div>
+          </HashRouter>
 
       )
     }
