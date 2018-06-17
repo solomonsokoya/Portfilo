@@ -2,7 +2,7 @@
   "name": "solomon-portfilo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://solomonsokoya.github.io/Portfilo/",
+  "homepage": "https://solomonsokoya.github.io/Portfolio/",
   "dependencies": {
     "gulp": "^3.9.1",
     "react": "^16.4.0",
