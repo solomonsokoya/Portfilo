@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Home from './components/home';
 import Projects from './components/projects'
-import {Route, Switch, HashRouter } from 'react-router-dom';
+import {Route, Switch, HashRouter} from 'react-router-dom';
 
 
 
@@ -14,7 +14,6 @@ export default class MenuExampleSecondary extends Component {
 
     return(
 
-          <HashRouter>
        <div>
           <main>
           <Switch>
@@ -23,7 +22,6 @@ export default class MenuExampleSecondary extends Component {
           </Switch>
           </main>
         </div>
-          </HashRouter>
 
       )
     }
