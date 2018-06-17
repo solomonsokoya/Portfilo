@@ -105,7 +105,7 @@ export default class Projects extends Component{
           <Card.Content textAlign='center'>
             <Card.Header className = 'projectHeader'>Drink Up App</Card.Header>
             <Card.Meta>May 2018</Card.Meta>
-            <Card.Description> App where users can find recipes to their favorite drink. Made fetch calls to cocktailsDB using Javascript, REACT, CSS, Node, and Express. </Card.Description>
+            <Card.Description> A full stack app where users can find recipes to their favorite drink. Made fetch calls to cocktailsDB API using Javascript, REACT, CSS, Node, and Express. </Card.Description>
          </Card.Content>
         </Card>
         </Transition>
