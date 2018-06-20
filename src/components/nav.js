@@ -31,7 +31,9 @@ constructor(props){
             name='Projects'
             />
           <Menu.Item
-            name='Photos'
+            name='Resume'
+            to='/resume'
+            name='Resume'
             />
         </Menu.Menu>
       </Menu>
