@@ -47,3 +47,14 @@
   "middleChild "
   "footer"
 }
+
+.react-pdf__Page__canvas{
+    user-select: none !important;
+    width: 40vw !important;
+    height: 75vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: center !important;
+    align-content: center !important;
+    justify-content: center !important;
+}

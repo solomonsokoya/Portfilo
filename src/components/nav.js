@@ -31,9 +31,9 @@ constructor(props){
             name='Projects'
             />
           <Menu.Item
+            as={thisNav}
             name='Resume'
             to='/resume'
-            name='Resume'
             />
         </Menu.Menu>
       </Menu>
