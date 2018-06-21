@@ -2,6 +2,7 @@
 
 *{
   font-family: 'Sunflower', sans-serif;
+
 }
 
 .projectHeader{
@@ -30,6 +31,7 @@
   grid-area: middleChild;
   align-self: center;
 
+
 }
 .me{
   width: 20vw !important;
@@ -37,6 +39,7 @@
 }
 
 .gridContainer{
+  overflow: hidden;
   height: 100vh;
   width: 100vw;
   display: grid;
@@ -47,14 +50,19 @@
   "middleChild "
   "footer"
 }
-
+.react-pdf__Page{
+  text-align: center;
+}
 .react-pdf__Page__canvas{
-    user-select: none !important;
-    width: 40vw !important;
-    height: 75vh !important;
+    display: inline-block !important;
+    width: 38vw !important;
+    height: 78vh !important;
     margin: 0 !important;
     padding: 0 !important;
     align-items: center !important;
     align-content: center !important;
     justify-content: center !important;
+}
+.annotationLayer{
+  display: none;
 }
