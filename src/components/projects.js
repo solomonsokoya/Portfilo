@@ -88,7 +88,7 @@ export default class Projects extends Component{
         </Transition>
 
         <Transition animation='pulse' visible = {this.state.visible} duration='2000'>
-        <Card color = 'grey' onClick = {() => (window.location.replace("https://github.com/sboozy/DrinkUp"))}>
+        <Card color = 'grey' onClick = {() => (window.location.replace("https://github.com/solomonsokoya/DrinkUpRefactored"))}>
             <Dimmer.Dimmable
         as={Image}
         dimmed={this.state.active3}
