@@ -3,7 +3,6 @@ import {Document, Page} from 'react-pdf';
 import Nav from './nav';
 import Footer from './footer';
 import Pdf from '../images/DevResume.pdf'
-import {Image, Header, Container} from 'semantic-ui-react';
 class Resume extends Component {
   constructor(props) {
     super(props)
