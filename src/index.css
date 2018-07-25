@@ -54,8 +54,6 @@
 }
 .react-pdf__Page__canvas{
     display: inline-block !important;
-    width: 35vw !important;
-    height: 80vh !important;
 }
 .annotationLayer{
   display: none;

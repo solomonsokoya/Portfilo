@@ -17,14 +17,14 @@ class Resume extends Component {
     this.setState({numPages});
   }
   render() {
-
+    let scaleNum = 0.1;
     const {pageNumber} = this.state;
     return (<div className='gridContainer'>
       <Nav/>
 
       <div className='middleChild'>
-        <Document file={Pdf} onLoadSuccess={this.onDocumentLoad}>
-          <Page pageNumber={pageNumber}/>
+        <Document scale ={scaleNum} height = {200}file={Pdf} onLoadSuccess={this.onDocumentLoad}>
+          <Page pageNumber={pageNumber} scale ={0.8}/>
         </Document>
       </div>
       <Footer/>
