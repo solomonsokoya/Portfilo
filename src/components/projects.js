@@ -82,7 +82,7 @@ export default class Projects extends Component{
           <Card.Content textAlign='center'>
             <Card.Header className = 'projectHeader'>Giggs App</Card.Header>
             <Card.Meta>April 2018</Card.Meta>
-            <Card.Description>Job posting app using Node.js, Express, EJS, and CSS3. Used the MVC framework to build my backend interactions. </Card.Description>
+            <Card.Description>Job posting app using Node.js, Express, EJS, and CSS3. Used the MVC framework to build my backend interactions. Refactored to REACT.js views. </Card.Description>
          </Card.Content>
         </Card>
         </Transition>
